@@ -2,9 +2,10 @@ package com.company;
 
 import java.util.*;
 
-public class Stack {
+public class Queue {
     
-    private ListItem top;
+    private ListItem head;
+    private ListItem tail;
     private int size;
     LinkedList<ListItem> list = new LinkedList<>();
 
@@ -12,9 +13,9 @@ public class Stack {
     
     // Muodosta uusi lista-alkio ja vie se jonon viimeiseksi
     public void push(String aData){
-        top = new ListItem();
-        top.setData(aData);
-        list.push(top);
+        tail = new ListItem();
+        tail.setData(aData);
+        list.push(tail);
         size++;
     }
 
@@ -25,10 +26,11 @@ public class Stack {
         if (size == 0) {
             return null;
         }
-        top = list.get(size - 1);
+        head = new ListItem();
+        head = list.get(size - 1);
         list.removeLast();
         size--;
-        return top;
+        return head;
     }
 
     /**********************************************************/

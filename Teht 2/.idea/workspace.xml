@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ae395ad-c838-4817-9a5b-d5f7b2bbe2ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Tietorakenteet ja Algoritmit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Teht 2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Teht 2/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Teht 2/com/company/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -70,7 +71,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584798698085</updated>
-      <workItem from="1584798699776" duration="378000" />
+      <workItem from="1584798699776" duration="1206000" />
+      <workItem from="1584957413218" duration="1305000" />
     </task>
     <servers />
   </component>
@@ -78,21 +80,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="660" height="1153" key="GridCell.Tab.0.bottom" timestamp="1584799085936">
+    <state width="660" height="759" key="GridCell.Tab.0.bottom" timestamp="1584959965996">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state width="660" height="1153" key="GridCell.Tab.0.bottom/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1584799085936" />
-    <state width="660" height="1153" key="GridCell.Tab.0.center" timestamp="1584799085935">
+    <state width="660" height="759" key="GridCell.Tab.0.bottom/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1584959965996" />
+    <state width="660" height="759" key="GridCell.Tab.0.bottom/0.23.2048.1210/-1920.23.1920.1057@0.23.2048.1210" timestamp="1584959601498" />
+    <state width="660" height="759" key="GridCell.Tab.0.center" timestamp="1584959965994">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state width="660" height="1153" key="GridCell.Tab.0.center/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1584799085935" />
-    <state width="660" height="1153" key="GridCell.Tab.0.left" timestamp="1584799085934">
+    <state width="660" height="759" key="GridCell.Tab.0.center/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1584959965994" />
+    <state width="660" height="759" key="GridCell.Tab.0.center/0.23.2048.1210/-1920.23.1920.1057@0.23.2048.1210" timestamp="1584959601497" />
+    <state width="660" height="759" key="GridCell.Tab.0.left" timestamp="1584959965993">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state width="660" height="1153" key="GridCell.Tab.0.left/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1584799085934" />
-    <state width="660" height="1153" key="GridCell.Tab.0.right" timestamp="1584799085936">
+    <state width="660" height="759" key="GridCell.Tab.0.left/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1584959965993" />
+    <state width="660" height="759" key="GridCell.Tab.0.left/0.23.2048.1210/-1920.23.1920.1057@0.23.2048.1210" timestamp="1584959601495" />
+    <state width="660" height="759" key="GridCell.Tab.0.right" timestamp="1584959965995">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state width="660" height="1153" key="GridCell.Tab.0.right/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1584799085936" />
+    <state width="660" height="759" key="GridCell.Tab.0.right/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1584959965995" />
+    <state width="660" height="759" key="GridCell.Tab.0.right/0.23.2048.1210/-1920.23.1920.1057@0.23.2048.1210" timestamp="1584959601498" />
+    <state x="401" y="221" key="new project wizard" timestamp="1584799964361">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="401" y="221" key="new project wizard/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1584799964361" />
   </component>
 </project>

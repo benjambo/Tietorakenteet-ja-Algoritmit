@@ -8,7 +8,7 @@ public class Main {
 
     private static void printMenu() {
         char select;
-        Stack s = new Stack(); // jono-olio
+        Queue s = new Queue(); // jono-olio
         String data; // Jonon data-kenttä
         do {
             System.out.println("\n\t\t\t1. Alkion lisääminen.");
