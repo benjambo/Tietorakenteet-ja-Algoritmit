@@ -1,16 +1,12 @@
 package com.company;
 
-/**
- *
- * @author kamaj
- */
 public class ListItem {
 
         private	String data;
         private ListItem next;
 
         public ListItem() {
-                next = null; // taitaa olla kyllä oletusarvo
+                next = null;
         }
         public String getData() {
                 return data;

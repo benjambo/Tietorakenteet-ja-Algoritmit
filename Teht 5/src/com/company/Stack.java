@@ -2,17 +2,20 @@ package com.company;
 
 public class Stack {
 
-        ListItem top; // top näkyy oletuspakkaukseen
+        ListItem top;
+        String[] array;
         private int size;
 
         public Stack() {
                 top = null;
                 size = 0;
         }
+
         //  palautetaan pino-iteraattori
         public StackIterator iterator() {
             return new StackIterator(this);
         }
+
         // muodostetaan uusi alkio ja viedään se huipulle
         public void push(String aData) {
                 ListItem newItem = new ListItem(); // luodaan uusi lista-alkio
@@ -21,24 +24,25 @@ public class Stack {
                 top = newItem; // uusi alkio pinon 1:ksi
                 size++;
         }
+
         // poistetaan alkio pinon huipulta, jos pinossa ei alkioita palautetaan null
         public ListItem pop() {
                 ListItem takeAway;
                 if (top == null) {
                         takeAway = null; // pino on tyhjä
-                }
-                else
-                {
+                } else {
                         size--;
                         takeAway = top;
                         top = top.getLink();
                 }
                 return takeAway;
         }
+
         // palautetaan pinottujen alkioiden lukumäärä
         public int getSize() {
                 return size;
         }
+
         // listataan sisältö
         public void printItems() {
                 ListItem lPointer = top;
