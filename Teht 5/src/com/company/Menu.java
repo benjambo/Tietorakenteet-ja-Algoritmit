@@ -1,16 +1,24 @@
 package com.company;
 
-public class Main {
+/**
+ *
+ * @author kamaj
+ */
+public class Menu {
+//main alkaa-----------------------------------------------------------------------------
         public static void main(String[] args) {
-            printMenu();
-        }
 
+                        printMenu();
+
+        }
+//main loppuu --------------------------------------------------------------------------
+//printMenu alkaa------------------------------------------------------------------
         private static void printMenu() {
                 char select;
                 Stack s = new Stack(); // pino-olio
                 String data; // Pinon data-kenttä
-
                 do {
+
                         System.out.println("\n\t\t\t1. Alkion lisääminen.");
                         System.out.println("\t\t\t2. Alkion poistaminen.");
                         System.out.println("\t\t\t3. Pinon sisältö.");
@@ -18,9 +26,7 @@ public class Main {
                         System.out.println("\t\t\t5. Pinon sisältö iteraattorilla selattuna.");
                         System.out.println("\t\t\t6. lopetus ");
                         System.out.print("\n\n"); // tehdään tyhjiä rivejä
-
                         select = Lue.merkki();
-
                         switch (select) {
                         case '1':
                             System.out.println("Anna alkion sisältö (merkkijono)");
@@ -51,4 +57,5 @@ public class Main {
                 }
                 while (select != '6');
         }
+//printMenu loppuu ----------------------------------------------------------------
 }
