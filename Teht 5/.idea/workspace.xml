@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="57160e45-25ae-4bbc-9dde-09a3e1b97a8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Teht 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Teht 2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ListItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Menu.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/StackIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/StackIterator.java" afterDir="false" />
     </list>
@@ -33,6 +27,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -45,6 +40,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,11 +56,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585225423432</updated>
-      <workItem from="1585225425937" duration="1061000" />
+      <workItem from="1585225425937" duration="5989000" />
+      <workItem from="1586156985314" duration="812000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="482" height="1153" key="GridCell.Tab.0.bottom" timestamp="1586157931386">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="660" height="1153" key="GridCell.Tab.0.bottom/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1585307168149" />
+    <state width="482" height="1153" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1586157931386" />
+    <state width="482" height="1153" key="GridCell.Tab.0.center" timestamp="1586157931385">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="660" height="1153" key="GridCell.Tab.0.center/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1585307168148" />
+    <state width="482" height="1153" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1586157931385" />
+    <state width="482" height="1153" key="GridCell.Tab.0.left" timestamp="1586157931384">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="660" height="1153" key="GridCell.Tab.0.left/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1585307168147" />
+    <state width="482" height="1153" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1586157931384" />
+    <state width="482" height="1153" key="GridCell.Tab.0.right" timestamp="1586157931385">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="660" height="1153" key="GridCell.Tab.0.right/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1585307168148" />
+    <state width="482" height="1153" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1586157931385" />
+    <state x="401" y="221" key="new project wizard" timestamp="1585231753111">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="401" y="221" key="new project wizard/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1585231753111" />
+    <state x="732" y="259" key="refactoring.ChangeSignatureDialog" timestamp="1585231123376">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="732" y="259" key="refactoring.ChangeSignatureDialog/0.0.2048.1280/-1920.0.1920.1080@0.0.2048.1280" timestamp="1585231123376" />
   </component>
 </project>

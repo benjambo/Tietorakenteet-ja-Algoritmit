@@ -1,15 +1,18 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class Stack {
 
-        ListItem top;
-        String[] array;
+        static final int MAX = 10;
+         int top;
+        ListItem[] array = new ListItem[MAX];
         private int size;
 
-        public Stack() {
-                top = null;
+       /* public Stack() {
+                top = 0;
                 size = 0;
-        }
+        }*/
 
         //  palautetaan pino-iteraattori
         public StackIterator iterator() {
@@ -17,25 +20,32 @@ public class Stack {
         }
 
         // muodostetaan uusi alkio ja viedään se huipulle
-        public void push(String aData) {
-                ListItem newItem = new ListItem(); // luodaan uusi lista-alkio
-                newItem.setData(aData);
-                newItem.setLink(top); // kytketään uusi alkio aikaisempaan huippualkioon
-                top = newItem; // uusi alkio pinon 1:ksi
-                size++;
+        public boolean push(String item)
+        {
+                if (top >= (MAX - 1)) {
+                        System.out.println("Stack Overflow");
+                        return false;
+                }
+                else {
+                        ListItem listItem = new ListItem();
+                        listItem.setData(item);
+                        array[top++] = listItem;
+                        System.out.println(listItem.getData() + " pushed into stack");
+                        size++;
+                        return true;
+                }
         }
 
         // poistetaan alkio pinon huipulta, jos pinossa ei alkioita palautetaan null
         public ListItem pop() {
-                ListItem takeAway;
-                if (top == null) {
-                        takeAway = null; // pino on tyhjä
-                } else {
-                        size--;
-                        takeAway = top;
-                        top = top.getLink();
+                if (top < 0) {
+                        System.out.println("Stack Underflow");
+                        return null;
                 }
-                return takeAway;
+                else {
+                        size--;
+                        return array[top--];
+                }
         }
 
         // palautetaan pinottujen alkioiden lukumäärä
@@ -45,12 +55,9 @@ public class Stack {
 
         // listataan sisältö
         public void printItems() {
-                ListItem lPointer = top;
-                while (lPointer != null) {
-                        System.out.print(lPointer.getData()+", ");
-                        lPointer = lPointer.getLink();
+                for (ListItem listItem : array) {
+                        System.out.print(listItem.getData() + "\n");
                 }
-
         }
 }
 
