@@ -20,6 +20,7 @@ private static void printMenu() {
         System.out.println("\t\t\t3. Etsi puusta.");
         System.out.println("\t\t\t4. Poista puusta.");
         System.out.println("\t\t\t5. lopetus ");
+        System.out.println("\t\t\t6. Tulosta puun korkeus ");
         System.out.print("\n\n"); // tehdään tyhjiä rivejä
         select = Lue.merkki();
         switch (select) {
@@ -52,6 +53,9 @@ private static void printMenu() {
                 }
                 break;
             case '5':
+                break;
+            case '6':
+                tree.getHeight(tree);
                 break;
         }
     }

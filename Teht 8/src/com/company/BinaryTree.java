@@ -3,6 +3,7 @@ package com.company;
 public class BinaryTree {
 
     private Node root;
+    private int height = 1;
 
     public BinaryTree(int rootValue) {
         root = new Node(rootValue);
@@ -52,7 +53,23 @@ public class BinaryTree {
         }
     }
 
-    public BinaryTree find(int aData){
+    int getHeight(BinaryTree node) {
+        if (node == null)
+            return 0;
+        else {
+            /* compute the depth of each subtree */
+            int lDepth = getHeight(node.getLeft());
+            int rDepth = getHeight(node.getRight());
+
+            /* use the larger one */
+            if (lDepth > rDepth)
+                return (lDepth + 1);
+            else
+                return (rDepth + 1);
+        }
+    }
+
+        public BinaryTree find(int aData){
 
         if(root == null) {
             return null;
